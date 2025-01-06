@@ -1,7 +1,7 @@
 // biome-ignore lint/style/useImportType: <explanation>
-import { Test, TestingModule } from '@nestjs/testing';
-// biome-ignore lint/style/useImportType: <explanation>
 import { INestApplication } from '@nestjs/common';
+// biome-ignore lint/style/useImportType: <explanation>
+import { Test, TestingModule } from '@nestjs/testing';
 import * as request from 'supertest';
 import { AppModule } from './../src/app.module';
 
