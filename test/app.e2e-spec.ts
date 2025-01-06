@@ -1,4 +1,6 @@
+// biome-ignore lint/style/useImportType: <explanation>
 import { Test, TestingModule } from '@nestjs/testing';
+// biome-ignore lint/style/useImportType: <explanation>
 import { INestApplication } from '@nestjs/common';
 import * as request from 'supertest';
 import { AppModule } from './../src/app.module';
@@ -19,6 +21,6 @@ describe('AppController (e2e)', () => {
     return request(app.getHttpServer())
       .get('/')
       .expect(200)
-      .expect('Hello World!');
+      .expect('Hello Worldd!');
   });
 });
